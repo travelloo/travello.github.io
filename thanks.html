@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://design.paralel.co.id/countdown/ -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="Assets/img/favicon.png" type="image/png">
+	<title>Thanks For Feedback</title>
+
+	<style type="text/css">
+		@font-face{
+			font-family: sevenSegment;
+			src: url(seven-segment.ttf);
+		}
+		body{
+			background-color: rgb(6, 48, 48);
+		}
+
+		h1{
+			font-family: sevenSegment;
+			color: #000000;
+		}
+
+		.container{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			
+		}
+		img{
+			width: 500px;
+			height: 400px;
+		}
+		.divit{
+			display: flex;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<img src="assets/IMG/feedback.png" alt="">
+	<div class="divit">
+		<h1>You will be redirected in </h1> 
+		<br>
+		<h1 id="count" style="margin-left: 10px;">10 </h1> 
+	</div>
+		
+	</div>
+
+	<script type="text/javascript">
+		var counter = 10;
+
+		setInterval( function(){
+			counter--;
+
+			if( counter >= 0 ){
+				id = document.getElementById("count");
+				id.innerHTML = counter;
+			}
+
+			if( counter === 0 ){
+				document.location.href="index.html";
+			}
+		}, 1000);
+	</script>
+
+</body>
+</html>

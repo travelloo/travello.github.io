@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="Assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!--=============== FONTs ===============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/search.css">
+        <!--=============== RESPONSIVE CSS ===============-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <title>Travel</title>
+    </head>
+    <body class="body">
+    <header class="header nowup" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo" >
+                <div class="mainnavclasd">
+                    <div class="classmainabhi">Travel</div>
+
+                </div>
+            </a>
+
+            <div class="nav__menu abhinowup" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a  href="index.html"  class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Places</a>
+                    </li>
+                    <br>
+                    <br>
+                    
+                    <div class="social media">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social gb1">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social gb4">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social gb2">
+                            <i class="fab fa-twitter"></i>          
+                         </a>
+                         <a href="https://web.whatsapp.com/" target="_blank" class="footer__social gb7">
+                            <i class="fab fa-whatsapp-square"></i>
+                        </a><br>
+                        <a href="https://in.pinterest.com/" target="_blank" class="footer__social gb6">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a href="https://in.linkedin.com/" target="_blank" class="footer__social gb5">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social gb3">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="t&c.html" target="_blank" class="footer__social gb8">
+                            <i class="fas fa-question"></i>
+                        </a>
+                        
+                    </div>
+                </ul>
+            
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    
+                    <h2 class="media" style="font-size: 20px; font-weight: 800; font-family: 'Roboto Condensed', sans-serif;">Theme</h2>
+                    <div class="ri-sun-line media"></div>
+                    <i id="theme-button">
+                        <div class="themechanger media" onclick="this.classList.toggle('active')" >
+                        <div class="circleround"></div>
+                    </div> 
+                    
+            
+                    <i class="ri-moon-line change-theme nonmedia btnfortheme" onclick="this.classList.toggle('ri-sun-line')" id="theme-button"></i>
+                     </i>
+                     <div class="ri-moon-line media"></div>    
+                </div>
+                
+            
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line" id="toggle"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="secheight">
+<div class="choooseit">
+    <div class="choose">
+    <a href="https://www.makemytrip.com/hotels/"><div class="choose1"><i style="color: white; padding-top: 50px;" class="fas fa-6x fa-hotel"></i></div></a>
+    <a href="https://www.makemytrip.com/visa/"><div class="choose1"><i style="color: white; padding-top: 50px;" class="fab fa-6x fa-cc-visa"></i></div></a>
+    <a href="https://www.makemytrip.com/flights/"><div class="choose1"><i style="color: white; padding-top: 50px;" class="fas fa-6x fa-plane"></i></div></a>
+</div>
+<div class="choose">
+    <a href="https://www.makemytrip.com/cabs/"><div class="choose1"><i style="color: white; padding-top: 50px;" class="fas fa-6x fa-taxi"></i></div></a>
+    <a href="https://www.makemytrip.com/bus-tickets/"><div class="choose1"><i style="color: white; padding-top: 50px;" class="fas fa-6x fa-bus"></i></div></a>
+    <a href="https://www.makemytrip.com/railways/"><div class="choose1"><i style="color: white; padding-top: 50px;" class="fas fa-6x fa-subway"></i></div></a>
+</div>
+</div>
+    </section>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="Assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!--=============== FONTs ===============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/search.css">
+        <!--=============== RESPONSIVE CSS ===============-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <title>Select A Tour...</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo" >
+                    <div class="mainnavclasd">
+                        <div class="classmainabhi">Travel</div>
+
+                    </div>
+                </a>
+
+                <div class="nav__menu abhinowup" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a  href="#about"  class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                        <br>
+                        <br>
+                        
+                        <div class="social media">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social gb1">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social gb4">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social gb2">
+                                <i class="fab fa-twitter"></i>          
+                             </a>
+                             <a href="https://web.whatsapp.com/" target="_blank" class="footer__social gb7">
+                                <i class="fab fa-whatsapp-square"></i>
+                            </a><br>
+                            <a href="https://in.pinterest.com/" target="_blank" class="footer__social gb6">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                            <a href="https://in.linkedin.com/" target="_blank" class="footer__social gb5">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social gb3">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="t&c.html" target="_blank" class="footer__social gb8">
+                                <i class="fas fa-question"></i>
+                            </a>
+                            
+                        </div>
+                    </ul>
+                
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        
+                        <h2 class="media" style="font-size: 20px; font-weight: 800; font-family: 'Roboto Condensed', sans-serif;">Theme</h2>
+                        <div class="ri-sun-line media"></div>
+                        <i id="theme-button">
+                            <div class="themechanger media" onclick="this.classList.toggle('active')" >
+                            <div class="circleround"></div>
+                        </div> 
+                        
+                
+                        <i class="ri-moon-line change-theme nonmedia btnfortheme" onclick="this.classList.toggle('ri-sun-line')" id="theme-button"></i>
+                         </i>
+                         <div class="ri-moon-line media"></div>    
+                    </div>
+                    
+                
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line" id="toggle"></i>
+                </div>
+            </nav>
+        </header>
+       
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__data-title">NEVER STOP TO <br><b>EXPLORE THE <br> WORLD</b></h1>
+
+                    </div>
+
+                    
+                </div>
+            </section>
+             <!--==================== ABOUT ====================-->
+             <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More Information <br> About The Best Beaches</h2>
+                        <p class="about__description">You can find the most beautiful and pleasant places at the best 
+                            prices with special discounts, you choose the place we will guide you all the way to wait, get your 
+                            place now.
+                        </p>
+                    </div>
+            
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+            
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SEARCH ====================-->
+            <div class="search">
+                <h2 class="section__title" style="color: white;">Search Places To Visit...</h2>
+                <div class="wrapper">
+                    <div class="search-input">
+                      <a href="" target="_blank" hidden></a>
+                      <input  type="text" placeholder="Search Places To Visit...">
+                      <div class="autocom-box">
+                        <!-- here list are inserted from javascript -->
+                      </div>
+                      <div class="icon"><i class="fas fa-search"></i></div>
+                    </div>
+                  </div>
+                   
+            </div>
+            </section>
+            
+                <!--==================== VIDEO ====================-->
+            <section class="video section " id="discover">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file" autoplay loop muted>
+                            <source src="assets/video/video1.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            </section>
+
+            
+
+            <!--==================== PLACES ====================-->
+            <br>
+            <br>
+            <br>
+                <h2 class="section__title">Choose Your Destination</h2>
+                <section class="place section" id="place">
+                <div class="holder">
+                <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach1.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Cabo San Juan de la Guia Beach, Colombia</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                </div>
+                <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Koekohe Beach, <br> New Zealand</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach2.jpg" alt="">
+
+                        </div>
+                </div>
+                <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach3.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>El Nido, Palawan, <br>
+                                Philippines</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                </div>
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach4.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Baia do Sancho,<br> Brazil</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Zlatni Rat Beach,<br> Croatia</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach5.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach6.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>Black Sand Beach,<br> Iceland</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach7.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>La Playa Escondida,<br> Mexico</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Lanikai Beach, Oahu,<br> Hawaii</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach8.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach9.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>South Beach,<br> Miami</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach10.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Champagne Beach,<br> Vanuatu</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Usedom Island,<br> Germany</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach11.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach12.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>Polihale Beach, Kauai,<br> Hawaii</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach13.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Baker Beach,<br> San Francisco</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>The Baths,<br> British Virgin Islands</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach14.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach15.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>Clifton Beach,<br> South Africa</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach16.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Tangalle Beach,<br> Sri Lanka</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Praia Dona Ana,<br> Portugal</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach17.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach18.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>Trunk Bay,<br> St. John USVI</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach19.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Railay Beach,<br> Thailand</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Whitehaven Beach,<br> Australia</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach20.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach21.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>Ruby Beach,<br> Washington</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach22.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Tunnels Beach, Kauai,<br> Hawaii</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Durdle Door,<br> England</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach23.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach24.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>Anse Source d'Argent,<br> Seychelles</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="holder">
+                    <div class="visit">
+                        <div class="card">
+                            <img src="assets/Services/Beach25.jpg" alt="">
+                        </div>
+                        <div class="card">
+                        <div class="cardicon">
+                            <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                        </div>
+                            <h1>Tulum,<br> Mexico</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    <div class="visit holdactive">
+                        <div class="card">
+                            <br>
+                            <br>
+                            
+                            <h1>Cala Goloritzè,<br> Sardinia</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+                            <br><br><br><br><br>
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                        </div>
+                        <div class="card">
+                            
+                            <img src="assets/Services/Beach26.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="visit ">
+                        <div class="card">
+                            <img src="assets/Services/Beach27.jpg" alt="">
+
+                        </div>
+                        <div class="card">
+                            <div class="cardicon">
+                                <i class="fa fa-plane fa-2x" style="color: white; transform: rotate(-80deg); margin: 18px;"></i>
+                                         </div>
+                            <h1>Walvis Bay,<br> Namibia</h1>
+                            <a href="choose.html" class="readbtn">Visit Now</a>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsorsabhi">
+              <H1 style="font-family: Pacifico;">Our Sponsors</H1>
+                </div>
+                <div class="sponsor__container container grid">
+                    
+                    <div class="sponsor__content">
+                        <a href="https://www.airbnb.co.in/"> 
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                    <div class="sponsor__content">
+                        <a href="https://www.amazon.in/"> 
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                    <div class="sponsor__content">
+                        <a href="https://www.shopify.in/"> 
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                    <div class="sponsor__content">
+                        <a href="https://www.paypal.com/in/home/"> 
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                    <div class="sponsor__content">
+                        <a href="https://slack.com/intl/en-in/"> 
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                    <div class="sponsor__content">
+                        <a href="https://www.myntra.com/"> 
+                        <img src="assets/img/sponsers6.png" alt="" class="sponsor__img">
+                        </a>
+                </div>
+                
+            </section>
+        </main>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid grid1">
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Social Links</h3>
+                        <br>
+                        <div class="social ">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social gb1">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social gb4">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social gb2">
+                                <i class="fab fa-twitter"></i>          
+                             </a>
+                             <a href="https://web.whatsapp.com/" target="_blank" class="footer__social gb7">
+                                <i class="fab fa-whatsapp-square"></i>
+                            </a><br>
+                            <a href="https://in.pinterest.com/" target="_blank" class="footer__social gb6">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                            <a href="https://in.linkedin.com/" target="_blank" class="footer__social gb5">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank" class="footer__social gb3">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="t&c.html" target="_blank" class="footer__social gb8">
+                                <i class="fas fa-question"></i>
+                            </a>
+                            
+                        </div>
+                        <br>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#about" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#discover" class="footer__link">Discover</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#experience" class="footer__link">Experience</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Company</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="team.html" class="footer__link">Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="price.html" class="footer__link">Plan y Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="price.html" class="footer__link">Become a member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Support Center</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="contact.html" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 @travel.com ©abhinav.  All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="t&c.html" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="t&c.html" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+         <!--========== SCROLL UP ==========-->
+         <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <!--=============== SEARCH JS ===============-->
+        <script src="assets/js/script.js"></script>
+        
+        <!--=============== SEARCH SUGGESTIONS JS ===============-->
+        <script src="assets/js/suggestions.js"></script>
+    </body>
+    </html>
